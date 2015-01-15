@@ -29,7 +29,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" $(Configuration.Contains('Nuget')) ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -37,7 +36,6 @@
   <Target Name="Nuget-Clean" DependsOnTargets="Clean">
     <RemoveDir Directories="bin\nuget" />
   </Target>
-  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Nuget Net 2.0|AnyCPU' ">
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <DefineConstants>$(DefineConstants);NET20</DefineConstants>
@@ -63,7 +61,6 @@
     <DefineConstants>$(DefineConstants);NET45</DefineConstants>
     <OutputPath>bin\nuget\net45\</OutputPath>
   </PropertyGroup>
-  
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -79,6 +76,9 @@
     <Compile Include="FoscamHdUrlBuilder.cs" />
     <Compile Include="FoscamHdUrlCommands.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FoscamLib.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
