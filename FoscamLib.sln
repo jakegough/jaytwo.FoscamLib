@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoscamLib", "FoscamLib\FoscamLib.csproj", "{D5E4D876-CE31-4CAD-9E83-F50AE25B8CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D8AACB4D-ECA4-45A5-A717-F74C1040D421}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E4D876-CE31-4CAD-9E83-F50AE25B8CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E4D876-CE31-4CAD-9E83-F50AE25B8CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E4D876-CE31-4CAD-9E83-F50AE25B8CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E4D876-CE31-4CAD-9E83-F50AE25B8CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AACB4D-ECA4-45A5-A717-F74C1040D421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AACB4D-ECA4-45A5-A717-F74C1040D421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AACB4D-ECA4-45A5-A717-F74C1040D421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AACB4D-ECA4-45A5-A717-F74C1040D421}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

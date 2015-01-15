@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>jaytwo.FoscamLib</id>
+    <version>$version$</version>
+    <description>library to simplify working with Foscam IP Camera URLs</description>
+    <authors>Jake Gough</authors>
+    <projectUrl>https://github.com/jakegough/jaytwo.FoscamLib/</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/jakegough/jaytwo.FoscamLib/master/LICENSE</licenseUrl>
+    <tags>jakegough jaytwo foscam foscamlib</tags>
+  </metadata>
+  <files>
+   <file src="bin\nuget\net20\$id$.*" target="lib\net20\" />
+   <file src="bin\nuget\net30\$id$.*" target="lib\net30\" />
+   <file src="bin\nuget\net35\$id$.*" target="lib\net35\" />
+   <file src="bin\nuget\net40\$id$.*" target="lib\net40\" exclude="$id$.dll" />
+   <file src="bin\nuget\net45\$id$.*" target="lib\net45\" />
+  </files>
+</package>
